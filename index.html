@@ -9,9 +9,27 @@
    <a href = "https://pobop-sys.github.io/pobop/">
 	hello go to thr back rooms website
    </a>
-	<button>
-		pet mr rivulet
-	</button>
+	
+	<img src="Rivulet-slugcat.png">
+	
+	
+	 <button id="petButton">Pet Mr Rivulet</button>
+  <p id="petCount">You've pet Mr Rivulet 0 times.</p>
+
+  <script>
+    let count = 0; // global counter
+    const button = document.getElementById('petButton');
+    const display = document.getElementById('petCount');
+
+    button.addEventListener('click', () => {
+      count++;
+      display.textContent = `You've pet Mr Rivulet ${count} time${count === 1 ? '' : 's'}.`;
+    });
+  </script>
+
+
+
+	
 	<audio controls>
 	
 		<source src="rain world music .mp3">
