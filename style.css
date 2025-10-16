@@ -1,8 +1,8 @@
 body {
 	   background: gray;
-	   
-          
+	   background-image: url('more stuth/backround rivulet.gif');
 }
+
 
 h1 {
 	color: navy;
@@ -19,3 +19,29 @@ box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	
 }
 
+a {
+	color: linear-gradient(to right, #d044d8, #6dbfb8, #d044d8);
+}
+
+h4 a {
+  display: block;
+  width: 300px;
+  padding: 8px;
+  border-radius: 12px;
+  background: linear-gradient(to right, #d044d8, #6dbfb8, #d044d8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 10px auto;
+}
+p {
+	color: white;	
+}
+h3{
+	color: white;
+}
+button {
+	  background: linear-gradient(to right, #d044d8, #6dbfb8, #d044d8);
+	
+}
