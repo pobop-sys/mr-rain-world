@@ -1,0 +1,21 @@
+body {
+	   background: gray;
+	   
+          
+}
+
+h1 {
+	color: navy;
+	margin-left: 20px;
+}
+
+audio {
+display: block;
+width: 300px;
+padding: 8px;
+border-radius: 12px;
+background: linear-gradient(to right, #d044d8, #6dbfb8, #d044d8); /* yellow → pink */
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	
+}
+
