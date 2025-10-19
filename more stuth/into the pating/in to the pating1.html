@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-	<link rel="stylesheet" href="into the pating style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Painting Opens</title>
 
+  <!-- ✅ Avoid spaces in file names for CSS (use dashes or underscores) -->
+  <link rel="stylesheet" href="into-the-painting-style.css">
 </head>
 
-
 <body>
-	<p>
-		the pating opens
-		<br>
-		you can not head background
-		<a>
-			do you go deeper
-		</a>
-	</p>
+  <p>
+    The painting opens.<br>
+    You cannot head back.<br>
+    If you want to go deeper, you must know the way up.<br>
+    All can, but some do not; most must achieve the mark.<br>
+    Enter the mark to go deeper.
+  </p>
 
+  <input id="keyInput" placeholder="Type here...">
 
+  <script>
+    const input = document.getElementById("keyInput");
 
+    input.addEventListener("keydown", function(event) {
+      if (event.key.toLowerCase() === "x") {
+        // ✅ Make sure this file actually exists and matches the name exactly
+        window.location.href = "you-go-deeper.html";
+      }
+    });
+  </script>
 </body>
 </html>
