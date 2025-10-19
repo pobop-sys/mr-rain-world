@@ -2,12 +2,17 @@ body {
 	
 	background: #6a4a3a;
 	color: white;
-	
+	border: 10px solid #4c3228
 	
 }
 
 p {
 	
-	border: 10px solid #6a4a3a;
-	
+
+	border: 10px solid #6a4a3a; /* thickness + color */
+	margin: 0;                 /* remove default spacing */
+	padding: 0;
+}
+html, body {
+  height: 100%;
 }
