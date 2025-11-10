@@ -1,0 +1,23 @@
+/* Basic terminal style */
+*{
+	font-family: consolas,monospace;
+	color: black;
+}
+
+body {
+	padding: 0;
+	margin: 0; 
+	background-color: white;
+}
+input {
+	border: none;
+	background: gray;
+	outline: none;
+	color: #f5945c;
+	
+	
+}
+h1,h2 {
+	color: white;
+}
+gd
