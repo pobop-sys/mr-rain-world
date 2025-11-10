@@ -1,18 +1,20 @@
 let terminal = document.getElementById('terminal');
 let input = document.getElementById('input');
 let output = document.getElementById('output');
-
+output.innerHTML += `user > pebeles interface sucsefull:<br>`;
 input.addEventListener('keydown', e => {
     if (e.key === 'Enter') {
         let command = input.value.trim();
         input.value = '';
-        output.innerHTML += `$ user> ${command}<br>`;
+        output.innerHTML += ` $user> ${command}<br>`;
+
         // --- HELP COMMAND ---
         if (command === 'help') {
             output.innerHTML += `Available commands:<br>`;
             output.innerHTML += `- help : Show this help message<br>`;
             output.innerHTML += `- templat [your text] : Print your text<br>`;
-			output.innerHTML += `- there are ester eggs wich will be added down the rode but there are ome in now`;
+			output.innerHTML += `- deaper : a function to help find what is allready there<br>`;
+			output.innerHTML += `<h1>pebles</h1>`;
             output.innerHTML += `<pre>
 	   .--.
 	  |o_o |
@@ -74,6 +76,12 @@ input.addEventListener('keydown', e => {
 			output.innerHTML += `<img src="downpore.gif" alt="Downpore animation"><br>`;
 			output.innerHTML += `- its coming`;
 		}
+		else if (command.startsWith('pebles')) {
+			output.innerHTML += `<a href="deaper in the terminal.html">
+		head deper in to the sever
+		</a>`
+		}
+		
         // --- UNKNOWN COMMAND ---
         else {
             output.innerHTML += `Unknown command: ${command}<br>`;
@@ -83,4 +91,3 @@ input.addEventListener('keydown', e => {
         terminal.scrollTop = terminal.scrollHeight;
     }
 });
-
