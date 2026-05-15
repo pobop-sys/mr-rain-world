@@ -82,9 +82,6 @@ input.addEventListener('keydown', e => {
 		</a>`
 		}
 		
-		/ else if (command.startsWith('noha')) {
-			//output.innerHTML + = `<img scr="mushroom.png" alt="noha mushroom"<br>>`;
-		/}
 		
         // --- UNKNOWN COMMAND ---
         else {
