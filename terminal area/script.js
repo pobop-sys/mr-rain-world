@@ -81,8 +81,6 @@ input.addEventListener('keydown', e => {
 		head deper in to the sever
 		</a>`
 		}
-		
-		
         // --- UNKNOWN COMMAND ---
         else {
             output.innerHTML += `Unknown command: ${command}<br>`;
