@@ -81,9 +81,11 @@ input.addEventListener('keydown', e => {
 		head deper in to the sever
 		</a>`
 		}
-		else if (command.startsWith('noha')) {
-			output.innerHTML + = `<img scr="mushroom.png" alt="noha mushroom"<br>>`;
-		}
+		
+		/ else if (command.startsWith('noha')) {
+			//output.innerHTML + = `<img scr="mushroom.png" alt="noha mushroom"<br>>`;
+		/}
+		
         // --- UNKNOWN COMMAND ---
         else {
             output.innerHTML += `Unknown command: ${command}<br>`;
